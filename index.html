@@ -43,12 +43,25 @@
         background-color: #4CAF50;
         color: white;
       }
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) { 
+    .masked{
+        background-image: -webkit-linear-gradient(left, #147B96, #E6D205 25%, #147B96 50%, #E6D205 75%, #147B96);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-background-size: 200% 100%;
+        -webkit-animation: masked-animation 4s infinite linear;
+    }
+}
+@-webkit-keyframes masked-animation {
+    0%  { background-position: 0 0;}
+    100% { background-position: -100% 0;}
+}
     </style>
   </head>
   <body background="/img/bgp.jpg" style="background-attachment:fixed;">
     <br><br><br>
-    <p align="center">欢 迎 来 到 K Y C 的 网 站</p>
-    <h2 align="center">Welcome to KYC's site</h2>
+    <p align="center" class="masked">欢 迎 来 到 K Y C 的 网 站</p>
+    <h2 align="center" class="masked">Welcome to KYC's site</h2>
     <br><br><br><br><br>
 <ul>
       <li><a href="/selfintroduce.html"><button class="soft">个人简介</button></a></li>
