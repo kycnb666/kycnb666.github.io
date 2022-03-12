@@ -1,9 +1,10 @@
 body {
-    max-width: 899px;
+    max-width: 750px;
     width: 100%;
     left:3%;
 top:100px;
 position:absolute;
+
 }
 
 .wrapper .swiper-container .swiper-pagination {
