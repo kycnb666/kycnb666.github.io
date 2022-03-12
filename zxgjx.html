@@ -1,6 +1,8 @@
 <html><head>
   <title>KYC's first site</title>
     <link rel="icon" type="image/png" href="/img/K.png">
+    <link rel='stylesheet' href='css/swiper.css'>
+    <link rel="stylesheet" href="css/style.css">
      <style type="text/css">
       .btn{
         -webkit-transition-duration: 0.4s;
@@ -95,12 +97,29 @@ font-size:150%
         background-color: skyblue;
         color: white;
       }
+       #t{
+width:750px;
+height:500px;
+}
       </style>
   </head>
   <body background="/img/bgp.jpg" style="background-attachment:fixed;">
     <a href="https://kycnb666.github.io/soft.html"><button class="btn">返回列表</button></a>
     
-<img class="zhutu" src="/img/zxgjx.png" alt="在线工具箱的图片">
+<!img class="zhutu" src="/img/zxgjx.png" alt="在线工具箱的图片">
+<div class="wrapper" >
+  <div class="swiper-container swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img id="t" src="img/zxgjx.png" alt=""></div>
+      <div class="swiper-slide"><img id="t" src="img/zxgjx.png" alt=""></div>
+      <div class="swiper-slide"><img id="t" src="img/zxgjx.png" alt=""></div>
+      <div class="swiper-slide"><img id="t" src="img/zxgjx.png" alt=""></div>
+      <div class="swiper-slide"><img id="t" src="img/zxgjx.png" alt=""></div>
+    </div>
+    <!-- 追記 -->
+    <div class="swiper-pagination"></div>
+  </div>
+</div>    
 <p class="dabiaoti">在线工具箱</p>
 <p class="xiaobiaoti">一款体积小，便携，包含了多种常见工具的工具箱</p>
 <a href="https://github.rc1844.workers.dev/kycnb666/onlinetoolbox/raw/main/%E5%9C%A8%E7%BA%BF%E5%B7%A5%E5%85%B7%E7%AE%B1/%E5%9C%A8%E7%BA%BF%E5%B7%A5%E5%85%B7%E7%AE%B1.exe"><button class="downloadbtn">下  载  1</button></a>
@@ -110,7 +129,8 @@ font-size:150%
 
     
     
-  
+  <script src='js/swiper.js'></script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
