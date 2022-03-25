@@ -43,6 +43,13 @@ position:absolute;
 font-size:150%;
 margin:0 auto;
 }
+.version{
+left:55%;
+top:290px;
+position:absolute;
+font-size:130%;
+margin:0 auto;
+}
 .jieshao{
 left:50%;
 top:660px;
@@ -53,7 +60,7 @@ font-family:STHupo;
 }
 .downloadbtn{
 left:55%;
-top:300px;
+top:350px;
 position:absolute;
 font-size:150%;
 margin:0 auto;
@@ -73,7 +80,7 @@ font-size:150%
       }
 .downloadbtn2{
 left:65%;
-top:300px;
+top:350px;
 position:absolute;
 font-size:150%;
 margin:0 auto;
@@ -92,7 +99,7 @@ border-radius:5px;
       }
 .downloadbtn3{
 left:75%;
-top:300px;
+top:350px;
 position:absolute;
 font-size:150%;
 margin:0 auto;
@@ -111,7 +118,7 @@ border-radius:5px;
       }
 .downloadbtn4{
 left:85%;
-top:300px;
+top:350px;
 position:absolute;
 font-size:150%;
 margin:0 auto;
